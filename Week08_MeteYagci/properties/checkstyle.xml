@@ -1,0 +1,62 @@
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+
+    <!-- General -->
+    <module name="TreeWalker">
+        <module name="EmptyBlock">
+            <property name="tokens" value="LITERAL_TRY"/>
+        </module>
+        <module name="EmptyLineSeparator"/>
+        <module name="SeparatorWrap"/>
+        <module name="JavadocStyle"/>
+    </module>
+
+    <!-- Imports -->
+    <module name="AvoidStarImport"/>
+
+    <!-- Naming conventions -->
+    <module name="TypeName">
+        <property name="format" value="^[A-Z][a-zA-Z0-9]*$"/>
+        <property name="allowLambdaParameterName" value="true"/>
+    </module>
+    <module name="MemberName">
+        <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        <property name="allowLeadingUnderscore" value="true"/>
+    </module>
+    <module name="LocalVariableName"/>
+    <module name="MethodName"/>
+    <module name="ParameterName"/>
+    <module name="VariableDeclarationName"/>
+
+    <!-- Size Violations -->
+    <module name="LineLength">
+        <property name="max" value="120"/>
+        <property name="ignorePattern" value="^package.*|^import.*"/>
+    </module>
+    <module name="MethodLength">
+        <property name="max" value="50"/>
+    </module>
+    <module name="FileLength">
+        <property name="max" value="1000"/>
+    </module>
+
+    <!-- Whitespace violations -->
+    <module name="WhitespaceAround">
+        <property name="allowEmptyCatch" value="false"/>
+        <property name="allowEmptyForInitializer" value="false"/>
+        <property name="allowEmptyForParentheses" value="false"/>
+    </module>
+    <module name="EmptyCatchBlock">
+        <property name="checkParameterName" value="false"/>
+    </module>
+
+    <!-- Miscellaneous -->
+    <module name="IllegalImport"/>
+    <module name="AvoidNestedBlocks"/>
+    <module name="FinalParameters"/>
+    <module name="AvoidInlineConditionals"/>
+</module>
