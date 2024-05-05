@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="D:\LESSONS\2024-2025 BAHAR\SE3314\LABS\Week10_std\src\main\java\org\example\App.java">
+<error line="7" column="1" severity="error" message="Class Fan-Out Complexity (CFOC) değeri 3 3 (maksimum izin verilen değer 2). (CFOC: Bir sınıfın, kendinden başka kaç farklı sınıfı kullandığı)" source="com.puppycrawl.tools.checkstyle.checks.metrics.ClassFanOutComplexityCheck"/>
+</file>
+<file name="D:\LESSONS\2024-2025 BAHAR\SE3314\LABS\Week10_std\src\test\java\org\example\AppTest.java">
+<error line="10" column="1" severity="error" message="Class Fan-Out Complexity (CFOC) değeri 3 3 (maksimum izin verilen değer 2). (CFOC: Bir sınıfın, kendinden başka kaç farklı sınıfı kullandığı)" source="com.puppycrawl.tools.checkstyle.checks.metrics.ClassFanOutComplexityCheck"/>
+</file>
+<file name="D:\LESSONS\2024-2025 BAHAR\SE3314\LABS\Week10_std\src\test\java\org\example\CourseTest.java">
+<error line="9" column="1" severity="error" message="Class Fan-Out Complexity (CFOC) değeri 3 3 (maksimum izin verilen değer 2). (CFOC: Bir sınıfın, kendinden başka kaç farklı sınıfı kullandığı)" source="com.puppycrawl.tools.checkstyle.checks.metrics.ClassFanOutComplexityCheck"/>
+</file>
+<file name="D:\LESSONS\2024-2025 BAHAR\SE3314\LABS\Week10_std\src\test\java\org\example\UniversityTest.java">
+<error line="9" column="1" severity="error" message="Class Fan-Out Complexity (CFOC) değeri 4 4 (maksimum izin verilen değer 2). (CFOC: Bir sınıfın, kendinden başka kaç farklı sınıfı kullandığı)" source="com.puppycrawl.tools.checkstyle.checks.metrics.ClassFanOutComplexityCheck"/>
+</file>
+</checkstyle>
